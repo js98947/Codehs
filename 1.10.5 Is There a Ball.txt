@@ -1,0 +1,26 @@
+// Karel should put a ball on the first spot
+// Karel should put a ball on the first spot
+// if there isn't one already there and then move.
+function start() {
+    ballcheck();
+   
+        
+
+}
+
+
+
+function ballcheck(){
+    if(ballsPresent()){
+        
+        
+        
+       }else 
+        putBall();
+     move();
+    
+
+    
+    
+    
+}

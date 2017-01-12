@@ -1,0 +1,12 @@
+function makePancakes() {
+    move();
+    putBall();
+    putBall();
+    putBall();
+}
+makePancakes();
+move();
+makePancakes();
+move();
+makePancakes();
+move();

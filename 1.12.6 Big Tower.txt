@@ -1,0 +1,58 @@
+/* This program draws a big tower from Karel's starting spot */
+function start(){
+    if(facingNorth()){
+        putBall();
+    }
+    
+    if(facingSouth()){
+        turnRight();
+        turnRight();
+        putBall();
+    
+    }
+    
+    if(facingEast()){
+        turnLeft();
+        putBall();
+    }
+    
+    if(facingWest()){
+        turnRight();
+        putBall();
+    }
+    
+	while(frontIsClear()){
+	    move();
+	    putBall();
+	    
+	}
+}
+
+
+function northCheck(){
+    if(facingNorth())
+        putBall();
+    
+}
+function eastCheck(){
+    if(facingEast())
+        turnLeft();
+     putBall();
+    
+}
+function southCheck(){
+    if(facingSouth())
+        turnRight();
+     turnRight();
+      putBall();
+    
+    
+    
+}
+
+function westCheck(){
+    if(facingWest())
+        turnRight();
+      putBall();
+}
+

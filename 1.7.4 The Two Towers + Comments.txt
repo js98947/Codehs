@@ -1,0 +1,42 @@
+function start(){
+	buildTower();
+	move();
+	turnRight();
+	move();
+	move();
+	setupTower();
+	buildTower();
+}
+
+
+//buildtower is used to build the tower
+
+
+
+function buildTower(){
+    move();
+    putBall();
+    turnLeft();
+    move();
+    putBall();
+    move();
+    putBall();
+    move();
+    turnRight();
+    
+} 
+// setuptower is used to reset karel to build another tower
+function setupTower(){
+    move();
+    turnLeft(); 
+    
+    
+}
+//turnright is turning left 3 times lol
+function turnRight(){
+    turnLeft(); 
+    turnLeft(); 
+    turnLeft(); 
+
+}
+

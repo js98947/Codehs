@@ -1,0 +1,9 @@
+//The code is to move karel to pick up the 100 balls
+function start(){
+	move();
+	for(var i=0; i<100;i++){
+	    
+	       takeBall();
+	}
+    move();
+}

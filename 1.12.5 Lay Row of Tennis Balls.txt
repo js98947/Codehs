@@ -1,0 +1,18 @@
+
+function start(){
+	while(noBallsPresent()){
+	    putBall();
+	   
+    	   while(frontIsClear()){
+               move();
+               putBall();
+           }
+	   
+    }
+	   
+	
+    
+
+
+}
+
